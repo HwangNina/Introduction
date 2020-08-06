@@ -42,6 +42,7 @@ a {
     width: 200px;
     border-radius: 50px;
     margin-bottom: 10px;
+    border: 2px solid green;
 }
 
 h1 {
@@ -78,6 +79,10 @@ li {
 .home_pic {
     width: 300px;
     margin: 40px;
+}
+
+h4 {
+    font-weight: lighter;
 }
 
 @media(max-width: 1000px){
