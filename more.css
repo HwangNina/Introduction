@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -23,6 +26,7 @@ a {
     width: 400px;
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .page .navigation .nav_content{
@@ -30,6 +34,7 @@ a {
     text-align: center;
     padding: 200px 0px;
 }
+
 
 .profile_pic {
     width: 200px;
@@ -62,6 +67,16 @@ li {
     overflow-y: scroll;
 }
 
+.page .main #links{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.icon{
+    margin: 20px;
+}
+
 .hover_image {
     width: 300px;
 }
@@ -73,6 +88,12 @@ li {
     background-color: rgb(250, 246, 202);
     margin: 50px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 25px;
+    font-family: 'Poor Story', cursive;
+}
+
+.info{
+    margin: 30px;
 }
 
 .hover_box:hover{
@@ -89,7 +110,7 @@ li {
     to   { transform: translate(0, -0x); }    
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1400px){
     .page .navigation{
         width: 100%;
         height: 50px;
@@ -104,7 +125,7 @@ li {
 
     .nav_content {
         display: flex;
-        justify-self: center;
+        justify-content: space-between;  
     }
 
     .nav_content .nav_list{
@@ -123,7 +144,54 @@ li {
         display: none;
     }
 
-    .main{
-        justify-content: center;
+    .page .main{
+        text-align: center;
+        padding-left : 10%;
+    }
+
+    .hover_image {
+        width: 300px;
+    }
+    
+    .hover_box{
+        display: flex;
+        height: 300px;
+        width: 1000px;
+        background-color: rgb(250, 246, 202);
+        margin: 50px 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-size: 20px;
+    }
+
+    .info{
+        margin: 20px;
+    }
+}
+
+@media(max-width: 1200px){
+    .hover_image {
+        width: 200px;
+    }
+    
+    .hover_box{
+        height: 200px;
+        width: 600px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 700px){
+    .hover_image {
+        width: 120px;
+    }
+    
+    .hover_box{
+        height: 120px;
+        width: 360px;
+        font-size: 10px;
+    }
+
+    .info{
+        margin: 12px;
     }
 }
