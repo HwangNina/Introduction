@@ -67,15 +67,6 @@ li {
     overflow-y: scroll;
 }
 
-.page .main #links{
-    text-align: right;
-    margin-right: 50px;
-    margin-top: 50px;
-}
-
-.icon{
-    margin: 20px;
-}
 
 .hover_image {
     width: 300px;
@@ -165,15 +156,12 @@ li {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         font-size: 20px;
     }
-
+    
     .info{
         margin: 20px;
     }
 
-    .page .main #links{
-        text-align: center;
-        margin-top: 50px;
-    }
+
 }
 
 @media(max-width: 1200px){

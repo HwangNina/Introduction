@@ -90,10 +90,10 @@ li {
 .page .main #links{
     text-align: right;
     margin-right:  3%;
-    margin-top: 50px;
+    margin-bottom: 3%;
 }
 
-.icon{
+.links_icon{
     margin: 20px;
 }
 
@@ -146,5 +146,14 @@ h5 {
 
     .page .main {
         padding-left: 0%;
+    }
+
+    .page .main #links{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .links_icon{
+        margin: 20px;
     }
 }
