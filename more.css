@@ -147,6 +147,7 @@ li {
     .page .main{
         text-align: center;
         padding-left : 10%;
+        text-align: center;
     }
 
     .hover_image {
@@ -161,10 +162,16 @@ li {
         margin: 50px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         font-size: 20px;
+        text-align: center;
     }
 
     .info{
         margin: 20px;
+    }
+
+    .page .main #links{
+        text-align: center;
+        margin-top: 50px;
     }
 }
 

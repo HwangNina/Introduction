@@ -75,6 +75,7 @@ li {
     padding-top: 120px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    overflow-y: auto;
 }
 
 .page .main #links{
